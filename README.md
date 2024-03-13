@@ -4,7 +4,7 @@ Stack: Flask (Python Framework)
 ## Settings
 1. <strong>Clone the Repository:</strong> Begin by cloning the project repository from GitHub:
 ```
-git clone https://github.com/your-username/your-project.git
+git clone [https://github.com/your-username/your-project.git](https://github.com/Kongms002/KWEB_assignment_BE)
 ```
 
 2-1. <strong>Install Virtualenv</strong>: First, install virtualenv on your system using the following command:
