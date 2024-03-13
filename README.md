@@ -1,4 +1,4 @@
-# KWEB_assignment_FE
+# KWEB_assignment_BE
 Stack: Flask (Python Framework)
 
 ## Settings
