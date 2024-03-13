@@ -1,10 +1,16 @@
 from flask import Flask
 from pymongo import MongoClient
-from config.settings import Config
+
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 # Flask 애플리케이션 생성
 app = Flask(__name__)
-app.config.from_object(Config)
+
+DB_URL = os.environ.get("DB_URL")
 
 
 class MongoDB:
@@ -16,5 +22,5 @@ class MongoDB:
         return self.client[db_name]
 
 
-mongo = MongoDB("mongodb+srv://admin:20020221@kweb.tuduaqz.mongodb.net/", "data")
+mongo = MongoDB(DB_URL, "data")
 db = mongo.get_database("data")
