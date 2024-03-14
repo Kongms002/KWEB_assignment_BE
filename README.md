@@ -37,6 +37,6 @@ python main.py
 
 6. <strong>(Sensitive).env File Setting:</strong> This is settings of .env file.
 ```
-JWT_SECRET_KEY = kongms002
-DB_URL = mongodb+srv://admin:20020221@kweb.tuduaqz.mongodb.net/
+JWT_SECRET_KEY = 
+DB_URL = 
 ```
